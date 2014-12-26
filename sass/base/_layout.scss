@@ -46,14 +46,27 @@
   border-bottom: 1px solid #f2f2f0;
   padding: 12px 0px;
 
-  h4 {
-    font-weight: 700;
-    font-style: normal;
-    padding-bottom: 12px;
-    text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: .1em;
-    color: #b3b3b1;
+  p {
+    font-size: 1.2em;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: .1em;
+  color: #b3b3b1;
+
+  > em {
+    font-style: italic;
+    text-transform: lowercase;
+    font-family: $serif;
+    font-size: 2em;
+
   }
 }
 
@@ -196,6 +209,8 @@ article {
 
 #footer {
   h4 {
+    font-size: 11px;
+    color: #b3b3b1;
     font-weight: 500;
     margin: 0px;
     padding: 6px 0px 0px 0px;
