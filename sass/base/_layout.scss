@@ -14,11 +14,11 @@
   padding: 200px 0px;
   z-index: -1;
   height: 550px;
+  font-family: $serif;
   text-align: center;
   color: white;
 
   > h1 {
-    font-family: $serif;
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
@@ -153,8 +153,11 @@ article {
 
   #about-me {
     margin-bottom: 10px;
-
     line-height: 2.0;
+
+    p em {
+      font-weight: bold;
+    }
 
     .social-icon-list {
       margin-top: 22px;
