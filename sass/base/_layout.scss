@@ -1,3 +1,11 @@
+
+.basic-alignment {
+  &.left { float: left; margin-right: 1.5em; }
+  &.right { float: right; margin-left: 1.5em; }
+  &.center { display:block; margin: 0 auto 1.5em; }
+  &.left, &.right { margin-bottom: .8em; }
+}
+
 .hero {
   position: fixed;
   top: 0;
@@ -68,15 +76,17 @@
     }
   }
 
-  #lois-profile, #gir-profile {
+  .profile {
     font-size: 1.2em;
 
     em { 
       font-family: $serif;
-      display:block;
       color: gray;
       font-style: italic;
       font-weight: 700;
+    }
+    em:before {
+      content: " · "
     }
 
 
