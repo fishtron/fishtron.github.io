@@ -1,10 +1,11 @@
 ##the all-star team
 
-<div id="profile">
+<div id="lois-profile">
 
 {% img left profile-img /images/lois-profile.jpg Lois Chan-Pedley %}
 
-<p>Lois Chan-Pedley</p>
+Lois Chan-Pedley
 
-<p><em>Owner, Chief Problem-Solver</em></p>
+<em>Owner, Chief Problem-Solver</em>
+
 </div>

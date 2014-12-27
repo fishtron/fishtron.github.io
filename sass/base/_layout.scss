@@ -68,9 +68,16 @@
     }
   }
 
-  #profile {
+  #lois-profile, #gir-profile {
+    font-size: 1.2em;
 
-    em { text-transform: uppercase; }
+    em { 
+      font-family: $serif;
+      display:block;
+      color: gray;
+      font-style: italic;
+      font-weight: 700;
+    }
 
 
     img.profile-img {
