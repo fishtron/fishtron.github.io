@@ -43,7 +43,6 @@
 .her-row {
   background: #f9f9f9;
   border-top: 1px solid #f2f2f0;
-  border-bottom: 1px solid #f2f2f0;
   padding: 12px 0px;
 
   p {
@@ -52,9 +51,37 @@
 }
 
 .pages {
-  border-top: 1px solid #f2f2f0;
-  border-bottom: 1px solid #f2f2f0;
   padding: 12px 0px;
+
+  form#contact {
+    width: 278px;
+    float: left;
+
+    .form-control {
+      width: 258px;
+      margin-bottom: 12px;
+      padding: 6px 12px;
+    }
+
+    textarea {
+      width: 258px;
+    }
+  }
+
+  #profile {
+
+    em { text-transform: uppercase; }
+
+
+    img.profile-img {
+      width: 200px;
+      height: 200px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+    }
+  }
+
 }
 
 h2 {
