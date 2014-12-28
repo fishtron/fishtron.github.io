@@ -56,13 +56,13 @@
   form#contact {
 
     .form-control {
-      width: 258px;
+      width: 100%;
       margin-bottom: 12px;
       padding: 6px 12px;
     }
 
     textarea {
-      width: 258px;
+      width: 100%;
     }
   }
 
@@ -81,8 +81,6 @@
     }
 
     img.profile-img {
-      width: 258px;
-      height: 258px;
       padding: 20px;
     }
   }
