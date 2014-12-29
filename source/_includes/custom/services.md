@@ -1,6 +1,6 @@
 ##services
 
-I provide training and technical support for many popular business and campaign management tools, such as [NationBuilder](http://www.nationbuilder.com), Google apps for Business and Nonprofits, Shopify and many more.
+I provide training and technical support for many popular business and campaign management tools, such as [NationBuilder](http://www.nationbuilder.com), [Google apps for Work](https://www.google.com/work/apps/business/) and [Nonprofits](http://www.google.ca/nonprofits/products/), [Shopify](http://www.shopify.ca/) and many more.
 
 I can help you navigate the world of social media and search engine optimisation.
 
