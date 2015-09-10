@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="home-page">
+  <div class="hero">
+    {% include custom/hero.html %}
+  </div>
+
+  <div class="home-field">
+    <div class="home-landing her-row">
+      <div class="container">
+        <div class="row">
+          {% include custom/home_landing_row.html %}
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider-short"/>
+
+    <div class="pages" name="services">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+              {% markdown custom/services.md %}
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <hr class="divider-short"/>
+
+    <div class="pages" name="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6">
+            {% include custom/team.html %}
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <hr class="divider-short"/>
+
+    <div class="pages" name="contact">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+              {% include custom/contact.html %}
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
